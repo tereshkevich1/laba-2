@@ -37,5 +37,6 @@ int main()
         rs = exp(pow(x, 2) + fabs(y));
         cout << rs;
     }
+    cout<<"пока";
     return 0;
 }
