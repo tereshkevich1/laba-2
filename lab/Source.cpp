@@ -8,9 +8,9 @@ int main()
 {
     setlocale(LC_ALL, "Rus");
     double x, y, max, min, c, rs;
-    cout << "ââåäèòå x:";
+    cout << "Ã¢Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ x:";
     cin >> x;
-    cout << "ââåäèòå y:";
+    cout << "Ã¢Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ y:";
     cin >> y;
     if (x >= y)
     {
@@ -37,4 +37,5 @@ int main()
         rs = exp(pow(x, 2) + fabs(y));
         cout << rs;
     }
+    return 0;
 }
